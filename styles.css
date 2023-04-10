@@ -1,0 +1,35 @@
+
+body{
+    background-color: gainsboro;
+}
+
+/* Estilo sobre un elemento */
+h4 {
+    background-color: yellow;
+    padding: 5px;
+    border: 10px solid coral;
+}
+
+h5, h6 {
+    color: brown;
+    border: 2px solid;
+}
+
+
+/* Selector id */
+#texto {
+    background-color: aqua;
+    color: red;
+    text-align: center;
+}
+
+/* Clase css */
+.centrar{
+    text-align: center;
+}
+
+/* Aplicar estilo a cierto elemento de la clase */
+p.centrar {
+    color: yellow;
+}
+
