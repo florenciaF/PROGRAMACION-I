@@ -3,19 +3,6 @@ body{
     background-color: gainsboro;
 }
 
-/* Estilo sobre un elemento */
-h4 {
-    background-color: yellow;
-    padding: 5px;
-    border: 10px solid coral;
-}
-
-h5, h6 {
-    color: brown;
-    border: 2px solid;
-}
-
-
 /* Selector id */
 #texto {
     background-color: aqua;
@@ -24,12 +11,51 @@ h5, h6 {
 }
 
 /* Clase css */
-.centrar{
+.centrar {
     text-align: center;
 }
 
 /* Aplicar estilo a cierto elemento de la clase */
 p.centrar {
     color: yellow;
+}
+
+/* Aplicar estilo a mas de un elemento a la vez*/
+h5, h6 {
+    color: brown;
+    text-align: center;
+
+}
+
+
+.borde-delineado{
+    border: 5px dashed green;
+}
+
+.borde-solido{
+    border: solid 7px saddlebrown;
+    border-radius: 10px;
+}
+
+.borde-doble{
+    border: double 5px blue;
+}
+
+.borde-puntos{
+    border: dotted 5px rgb(37, 214, 170);
+    border-width: medium;
+}
+
+.borde-sombreado{
+    border: outset 5px black;
+    border-width: 10px 3px 2px 5px;
+    margin-left: 10px;
+}
+
+.box-model {
+    background-color: yellow;
+    padding: 25px;
+    border: 10px solid coral;
+    margin: 35px;
 }
 

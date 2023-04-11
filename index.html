@@ -25,25 +25,32 @@
     <link reel="stylesheet" src="styles.css">
 </head>
 <body>
-    <br><br>
-
+    <br>
     <hr>
     <h4 class="centrar">Título</h4>
     <div class="centrar"> texto - texto - texto </div>
     <hr>
-    <h3><strong><i>Lista ordenada</i></strong> </h3>
-    <ol>
-        <li>Ana</li>
-        <li>Maria</li>
-        <li>Romina</li>
-    </ol>
 
-    <h3>Lista desordenada</h3>
-    <ul>
-        <li>Juan</li>
-        <li>Axel</li>
-        <li>Franco</li>
-    </ul>
+    <div class="row" >
+        <div class="col-md-2"></div>
+        <div class="col-md-4">
+            <h3><strong><i>Lista ordenada</i></strong> </h3>
+            <ol>
+                <li>Ana</li>
+                <li>Maria</li>
+                <li>Romina</li>
+            </ol>
+        </div>
+        <div class="col-md-4">
+            <h3>Lista desordenada</h3>
+            <ul>
+                <li>Juan</li>
+                <li>Axel</li>
+                <li>Franco</li>
+            </ul>
+        </div>
+    </div>
+  
     <hr>
     <h2>Tablas</h2>
     <table style="width: 500px; margin:auto">
@@ -69,30 +76,50 @@
         <label for="apellido">Apellido</label>
         <input type="text" id="apellido" name="apellido" placeholder="Ingresar apellido">
         <br>
-        <textarea cols="30" rows="10">comentario</textarea>
+        <textarea cols="30" rows="5">comentario</textarea>
         <br>
         <input type="submit">
     </form>
-
-
-
     <hr>
-    <h1 id="texto">Hola</h1>
-    <h2 id="texto">Hola</h2>
-    <h3>Hola</h3>
-    <h5>Hola</h5>
-    <h6>Hola</h6>
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Tipos de bordes</h3>
+            <p class="borde-delineado">Borde discontinuo</p>
+            <p class="borde-solido">Borde sólido</p>
+            <p class="borde-doble">Borde doble</p>
+            <p class="borde-puntos">Borde punteado</p>
+            <p class="borde-sombreado">Borde sombreado</p>
 
-    <hr>
-    <p class="centrar">Esto es un parrafo</p>
-    <p>otro texto</p>
+        </div>
+        <div class="col-md-6">
+            <h3>Títulos</h3>
+            <h1 id="texto">Hola</h1>
+            <h2>Hola</h2>
+            <h5>Hola</h5>
+            <h6>Hola</h6>        
+        </div>
+    </div>
+   
 
-    <!-- Esto es un comentario que sirve como referencia-->
-    <a href="https://www.google.com/" target="_blank"> ir a google</a>
-    <img src="https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg" width="80px" height="80px"/>
-    <img src="/imagenes/torre.jpg" alt="" width="600px" height="600px">
-
-
+    <hr><!-- Esto es un comentario que sirve como referencia-->
+    <div class="row">
+        <div class="col-md-4">
+            <h3> Box model</h3>
+            <p class="box-model">Contenido</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Enlace a una página</h3>
+            <br>
+            <a href="https://www.google.com/" target="_blank"> ir a google</a>
+        </div>
+        <div class="col-md-4">
+            <h3>Imágenes</h3>
+            <img src="https://www.blogdelfotografo.com/wp-content/uploads/2020/04/fotografo-paisajes.jpg" width="80px" height="80px"/>
+            <img src="/imagenes/torre.jpg" alt="" width="200px" height="200px">
+        </div>
+    </div>
+   
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
