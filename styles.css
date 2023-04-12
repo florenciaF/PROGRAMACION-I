@@ -1,4 +1,6 @@
 
+
+/* Aplicar estilo a todo el elemento */
 body{
     background-color: gainsboro;
 }
@@ -21,7 +23,7 @@ p.centrar {
 }
 
 /* Aplicar estilo a mas de un elemento a la vez*/
-h5, h6 {
+h5, h6, p {
     color: brown;
     text-align: center;
 
